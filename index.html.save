@@ -7,7 +7,6 @@
 
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/style_css.css" />
-	<meta name="viewport" content="width=device-width", initial-scale=1">
 
 </head>
 
@@ -23,8 +22,8 @@
     <th>Lastname</th>
     <th>Age</th>
   </tr>
-  <tr>
-    <td>Ric</td>
+  <tr>roc
+    <td></td>
     <td>Smith</td>
     <td>50</td>
   </tr>
