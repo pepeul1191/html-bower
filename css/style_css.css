@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 body {
   line-height: 1; }
 
+=======
+body {
+  line-height: 1; }
+
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-weight: normal; }
@@ -40,9 +46,15 @@ a img {
   box-sizing: border-box; }
 
 body {
+<<<<<<< HEAD
   background-color: #ffffff;
   color: #505050;
   font-family: "Open sans", sans-serif;
+=======
+  background-color: #3cb5f9;
+  color: #505050;
+  font-family: "Open Sans", sans-serif;
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8; }
@@ -121,7 +133,11 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
+<<<<<<< HEAD
   background-color: #ffffff;
+=======
+  background-color: #FFF;
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   -ms-transition: height 0.3s;
@@ -130,11 +146,19 @@ header {
   header h1#logo {
     display: inline-block;
     height: 75px;
+<<<<<<< HEAD
     line-height: 50px;
     float: left;
     font-family: "Open sans", sans-serif;
     font-size: 60px;
     color: black;
+=======
+    line-height: 75px;
+    float: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    color: white;
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
     font-weight: 400;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -143,6 +167,7 @@ header {
     transition: all 0.3s; }
   header nav {
     display: inline-block;
+<<<<<<< HEAD
     float: left;
     margin-left: 40px; }
     header nav a {
@@ -152,14 +177,31 @@ header {
       font-weight: 700;
       font-size: 15px;
       padding-right: 20px;
+=======
+    float: left; 
+    margin-left: 40px;}
+    header nav a {
+    	line-height: 75px;
+    margin-left: 20px;
+    color: #1c1b1b;
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 20px;
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       header nav a:hover {
+<<<<<<< HEAD
         text-decoration: none;
         color: #892e27; }
+=======
+        color: #892e27; 
+        text-decoration: none;
+       }
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
@@ -174,6 +216,7 @@ header {
 -------------------------------------------------------------- */
 /* =Extras
 -------------------------------------------------------------- */
+<<<<<<< HEAD
 .col-xs-3{
   height: 100px;
   background-color: red;
@@ -186,6 +229,8 @@ header {
   align-content: center;
 }
 
+=======
+>>>>>>> 1a849a9567e280c8da7dc305933797e31696a30a
 .clearfix:after {
   visibility: hidden;
   display: block;
