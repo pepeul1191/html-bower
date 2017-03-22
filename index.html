@@ -2,39 +2,74 @@
 <html>
 <head>
 
-<meta charset="utf-8">
-	<title></title>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_css.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
 
-	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/style_css.css" />
-	<meta name="viewport" content="width=device-width", initial-scale=1">
-
+ <script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+ </script>
 </head>
 
-<body class = "container-fluid">
+<body>
 
-<button  class="btn btn-default" type="submit">Button</button>
-<button  class="btn btn-danger" type="button" >Danger</button>
-<button  class="btn btn-info" type="button" >Info</button>
+<div id="wrapper">
 
- <table  class="table table-striped" style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Ric</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-</table> 
+ <header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            <img src="img/LogoEcoreTrading.png"/>
+        </h1>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Nosotros</a>
+            <a href="">Actividades</a>
+            <a href="">Sucursales</a>
+            <a href="">Galerías</a>
+            <a href="">Contacto</a>
+        </nav>
+    </div>
+ </header>
+</div>
 
-	<h1>titulo</h1>
+<footer></footer><!-- /footer -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3">
+        Actividad 1
+        </div>
+        <div class="col-xs-3">
+        Actividad 2
+        </div>
+        <div class="col-xs-3">
+        Actividad 3
+        </div>
+        <div class="col-xs-3">
+        Actividad 4
+        </div>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="js/app.js" type="text/javascript"></script>
+
 </body>
 </html>
